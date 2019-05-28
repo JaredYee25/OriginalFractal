@@ -14,7 +14,7 @@ public void draw()
 
 {
 
-  background(0);
+  background(100);
 
   fractal(400,400,300);
 
@@ -38,7 +38,7 @@ public void fractal(float x, float y, float size)
 
     rect(x,y,size,size);
 
-    fill(239,20,20);
+    fill(139,120,60);
 
     fractal(x,y-size*2/3,size/3);
 
